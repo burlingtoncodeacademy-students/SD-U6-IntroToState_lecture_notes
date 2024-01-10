@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+### Before Getting Started
+There are two different branches associated with this lesson.
+- Main
+  - This branch provides the base notes of material not filled out.
+- Completed
+  - This branch includes all the added notes for you to review and compare with your own code-along.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Topics Covered
+- State
 
-## Available Scripts
+### What Should Already Be Understood
+- Creating a React Application
+  - File / Folder structure
+- Props
+  - Basic concepts
+  - Passing a props object through components
+- Reusable Components
 
-In the project directory, you can run:
+## Files / Folders Provided in this Lesson
+This lesson can be continued through the previous two, placing each component below `Employees.jsx`.
 
-### `npm start`
+If you are not continuing from the previous lessons, this is designed to walk through these concepts individually. You will just need to spin up a new React application and add update the following:
+This lesson starts right at the `npx create-react-app .` point.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- intro-to-state
+  - src
+    - components (add folder)
+      - **welcome** (add folder)
+        - `Welcome.jsx` (Will build here)
+    - App.jsx (updated from App.js)
+    - App.css (updated code | provided below)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```css
+.App {
+  text-align: center;
+}
 
-### `npm test`
+.welcome {
+  font-size: 18pt;
+  margin: 1em;
+}
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `notes.md`: details the various notes taught throughout this lesson.
 
-### `npm run build`
+## Resources
+- [Creating a New React App](https://react.dev/learn/start-a-new-react-project)
+- [PDF Notes Project Setup](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FtREBlxLhAPTB8ZVYiQy1%2Fuploads%2F85gYGO7YaVE24rYVczhc%2FCreating%20a%20React%20App.pdf?alt=media&token=bf0f7d96-a03e-4b50-9adc-d62af526c6c3)
+- [PDF Functional Component](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FtREBlxLhAPTB8ZVYiQy1%2Fuploads%2FI7hJbXoIfL1qex9U8ipy%2FAppjs_FunctionalComponent.pdf?alt=media&token=6967bba4-00d7-4cd3-b568-cc99bec23c5e)
+- [React Slide Deck](https://www.canva.com/design/DAFWhaqpzRc/qlUfqm93ZfFJSXl-N6yd9A/view#4)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Challenge
+```js
+/* 
+  ! Challenge:
+    - Build out a Counter Component which will have two buttons (+), (-) and a span element that will take its value from a count state variable.
+      - This should be within it's own folder.
+    - Create two functions that will work as onClick event listeners.
+      - One function will increment the current state.
+      - One function will decrement the current state.
+      
+    Hard Mode:
+      - Leave the count inside App.jsx
+  */
+```
