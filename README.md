@@ -48,8 +48,10 @@ This lesson starts right at the `npx create-react-app .` point.
 - [PDF Notes Project Setup](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FtREBlxLhAPTB8ZVYiQy1%2Fuploads%2F85gYGO7YaVE24rYVczhc%2FCreating%20a%20React%20App.pdf?alt=media&token=bf0f7d96-a03e-4b50-9adc-d62af526c6c3)
 - [PDF Functional Component](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FtREBlxLhAPTB8ZVYiQy1%2Fuploads%2FI7hJbXoIfL1qex9U8ipy%2FAppjs_FunctionalComponent.pdf?alt=media&token=6967bba4-00d7-4cd3-b568-cc99bec23c5e)
 - [React Slide Deck](https://www.canva.com/design/DAFWhaqpzRc/qlUfqm93ZfFJSXl-N6yd9A/view#4)
+- [State Hook](https://legacy.reactjs.org/docs/hooks-state.html)
 
 # Challenge
+**Counter Component**
 ```js
 /* 
   ! Challenge:
@@ -62,4 +64,23 @@ This lesson starts right at the `npx create-react-app .` point.
     Hard Mode:
       - Leave the count inside App.jsx
   */
+```
+*Provided CSS*
+
+Plug this into the `App.css` below the current code. This is not required to complete the challenge but simply makes it "cleaner" on the browser page.
+```css
+.counter {
+    margin: 2em;
+}
+
+.counter > button {
+    font-size: 25px;
+    margin: 1em;
+    padding: 1px;
+    width: 1em;
+}
+
+.counter > span {
+    font-size: 25pt;
+}
 ```
